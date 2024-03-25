@@ -1,0 +1,202 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --acent: #e7e9fc;
+  --cloud: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+  --main-font: Roboto, sans-serif;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--text);
+  text-decoration: none;
+  background-color: var(--white-background);
+}
+a {
+  text-decoration: none;
+}
+.web-logo {
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.studio-logo {
+  color: var(--dark);
+}
+
+.studio-logo:hover,
+.studio-logo:focus {
+  color: var(--pressed-state);
+}
+.list-style {
+  list-style: none;
+}
+.nav {
+  color: var(--dark);
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.nav:hover,
+.nav:focus {
+  color: var(--pressed-state);
+}
+.address {
+  font-style: normal;
+}
+/**/
+.solutions {
+  background-color: var(--hero-background);
+}
+.hero {
+  /* Header 1 */
+  color: var(--white-background);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.button-service {
+  font-family: "Roboto", sans-serif;
+  background: var(--primary-brand);
+  color: var(--white-background);
+  cursor: pointer;
+
+  /*button-text :Oder Serwice*/
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button-service:hover,
+.button-service:focus {
+  background-color: var(--pressed-state);
+}
+.section-title {
+  color: var(--navyblue, #2e2f42);
+  /* Header 2 */
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.subsection-title {
+  /* Header 3 */
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.text-team {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.our-team {
+  background-color: var(--cloud);
+}
+.button-item {
+  color: var(--primary-brand);
+  background-color: var(--cloud);
+
+  font-weight: medium;
+  size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  cursor: pointer;
+}
+.button-item:hover,
+.button-item:focus {
+  color: var(--cloud);
+  background-color: var(--primary-brand);
+}
+/*text under pictures*/
+.text-content {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.adres {
+  color: var(--text);
+  size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.adres:hover,
+.adres:focus {
+  color: var(--pressed-state);
+}
+.footer {
+  background-color: var(--hero-background);
+  color: var(--cloud);
+}
+.web-logo-footer {
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  justify-content: center;
+}
+.studio-logo-footer {
+  color: var(--cloud);
+}
+.studio-logo-footer:hover,
+.studio-logo-footer:focus {
+  color: var(--pressed-state);
+}
+.footer-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-strategy {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.doing {
+  background-color: var(--cloud);
+}
+.card {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.team {
+  background-color: var(--white-background);
+}
