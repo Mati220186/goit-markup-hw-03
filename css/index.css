@@ -37,6 +37,9 @@ p {
 a {
   text-decoration: none;
 }
+img {
+  display: block;
+}
 .web-logo {
   color: var(--primary-brand);
   font-family: "Raleway", sans-serif;
@@ -78,6 +81,7 @@ a {
 .solutions {
   background-color: var(--hero-background);
   height: 600px;
+  padding: 188px 0;
 }
 .hero {
   /* Header 1 */
@@ -89,8 +93,7 @@ a {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
-  padding-top: 188px;
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -100,6 +103,7 @@ a {
   margin-right: auto;
   margin-top: 48px;
   width: 169px;
+  height: 56px;
 }
 .button-service {
   font-family: "Roboto", sans-serif;
@@ -122,14 +126,13 @@ a {
 }
 .section-title {
   color: var(--navyblue, #2e2f42);
-  /* Header 2 */
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .subsection-title {
   /* Header 3 */
@@ -139,6 +142,7 @@ a {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .text-team {
@@ -152,7 +156,7 @@ a {
 .our-team {
   background-color: var(--cloud);
   height: 732px;
-  margin-top: 120px;
+  padding: 120px 0;
 }
 .button-item {
   color: var(--primary-brand);
@@ -191,6 +195,7 @@ a {
 .footer {
   background-color: var(--hero-background);
   color: var(--cloud);
+  padding: 100px 0;
 }
 .web-logo-footer {
   color: var(--primary-brand);
@@ -202,6 +207,8 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   justify-content: center;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .studio-logo-footer {
   color: var(--cloud);
@@ -216,6 +223,7 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .section-strategy {
   line-height: 1.5;
@@ -233,7 +241,7 @@ a {
 }
 .team {
   background-color: var(--white-background);
-  width: 264px;
+  width: calc((100%-72px) / 4);
   height: 380px;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
@@ -276,15 +284,13 @@ address {
 .section2 {
   display: flex;
   width: 1128px;
-  margin-top: 120px;
   margin-left: auto;
   margin-right: auto;
   gap: 24px;
 }
 .section2li {
-  width: 264px;
+  width: calc((100%-72px) / 4);
 }
-
 .title2 {
   display: none;
 }
@@ -297,12 +303,38 @@ address {
   margin-right: auto;
 }
 .cardtext {
-  width: 232px;
-  height: 56px;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 32px;
+  padding: 32px 16px;
+}
+.container {
+  display: flex;
+}
+.section2strategy {
+  padding: 120px 0;
+}
+.container-section2 {
+}
+.our-portfolio {
+  padding: 120px 0;
+}
+.container-section3 {
+}
+.ul-section3 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.li-section3 {
+  width: calc((100%-48px) / 3);
+}
+.li-section3-text {
+  padding: 32px 16px;
+  border: 1px solid var(--acent);
+  border-top: none;
+  margin-bottom: 8px;
+}
+.container-footer {
 }
