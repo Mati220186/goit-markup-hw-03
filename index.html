@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MSi Homework02</title>
+    <title>MSi Homework03</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
@@ -12,16 +12,17 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <header>
+  <body class="body-container">
+    <header class="header-container">
       <nav>
         <!--Logo-->
+
         <a href="/goit-markup-hw-02/index.html" class="web-logo"
           >Web<span class="studio-logo">Studio</span></a
         >
         <!--Paga navigation-->
 
-        <ul style="list-style: none">
+        <ul style="list-style: none" class="nav-ul-container">
           <li>
             <a href="./index.html" class="nav">Studio</a>
           </li>
@@ -34,8 +35,9 @@
         </ul>
       </nav>
       <!--Address-->
+
       <address class="address">
-        <ul style="list-style: none">
+        <ul style="list-style: none" class="address-ul-container">
           <li>
             <a href="mailto:info@devstudio.com" class="adres"
               >info@devstudio.com</a
@@ -51,34 +53,37 @@
     <main>
       <section class="solutions">
         <h1 class="hero">Effective Solutions for Your Business</h1>
-        <button type="button" class="button-service">Order srervice</button>
+        <div class="button">
+          <button type="button" class="button-service">Order Service</button>
+        </div>
       </section>
       <!-- Section 1 - Strategy, Punctuality, Diligence, Technologies-->
       <section>
-        <h2 class="section-title">Section 2</h2>
-        <ul style="list-style: none">
-          <li>
+        <h2 class="section-title title2">Section 2</h2>
+
+        <ul style="list-style: none" class="section2">
+          <li class="section2li">
             <h3 class="subsection-title">Strategy</h3>
             <p class="section-strategy">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="section2li">
             <h3 class="subsection-title">Punctuality</h3>
             <p class="section-strategy">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="section2li">
             <h3 class="subsection-title">Diligence</h3>
             <p class="section-strategy">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="section2li">
             <h3 class="subsection-title">Technologies</h3>
             <p class="section-strategy">
               Design practice focused on digital experiences. We bring forth a
@@ -91,11 +96,13 @@
       <!-- Section 2 - Our Team -->
       <section class="our-team">
         <h2 class="section-title">Our Team</h2>
-        <ul style="list-style: none">
+        <ul style="list-style: none" class="teamli">
           <li class="team">
             <img src="./images/Face_1s.jpg" alt="Product Designer" />
-            <h3 class="subsection-title">Mark Guerrero</h3>
-            <p class="text-team">Product Designer</p>
+            <div class="cardtext">
+              <h3 class="subsection-title">Mark Guerrero</h3>
+              <p class="text-team">Product Designer</p>
+            </div>
           </li>
           <li class="team">
             <img
@@ -104,8 +111,10 @@
               width="264"
               height="260"
             />
-            <h3 class="subsection-title">Tom Ford</h3>
-            <p class="text-team">Frontend Developer</p>
+            <div class="cardtext">
+              <h3 class="subsection-title">Tom Ford</h3>
+              <p class="text-team">Frontend Developer</p>
+            </div>
           </li>
           <li class="team">
             <img
@@ -114,8 +123,10 @@
               width="264"
               height="260"
             />
-            <h3 class="subsection-title">Camila Garcia</h3>
-            <p class="text-team">Marketing</p>
+            <div class="cardtext">
+              <h3 class="subsection-title">Camila Garcia</h3>
+              <p class="text-team">Marketing</p>
+            </div>
           </li>
           <li class="team">
             <img
@@ -124,8 +135,10 @@
               width="264"
               height="260"
             />
-            <h3 class="subsection-title">Daniel Wilson</h3>
-            <p class="text-team">UI Designer</p>
+            <div class="cardtext">
+              <h3 class="subsection-title">Daniel Wilson</h3>
+              <p class="text-team">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
