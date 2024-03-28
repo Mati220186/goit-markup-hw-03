@@ -179,7 +179,6 @@ img {
   color: var(--cloud);
   background-color: var(--primary-brand);
 }
-/*text under pictures*/
 .text-content {
   color: var(--text);
   font-size: 16px;
