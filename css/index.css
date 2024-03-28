@@ -12,11 +12,6 @@
   --modal-background: #fcfcfc;
   --main-font: Roboto, sans-serif;
 }
-header {
-  margin: 0;
-
-  max-height: 72px;
-}
 body {
   font-family: var(--main-font);
   color: var(--text);
@@ -49,6 +44,7 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .studio-logo {
   color: var(--dark);
@@ -69,6 +65,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .nav:hover,
 .nav:focus {
@@ -80,18 +77,19 @@ img {
 /**/
 .solutions {
   background-color: var(--hero-background);
-  height: 600px;
   padding: 188px 0;
 }
+.solutions .container {
+  flex-direction: column;
+}
 .hero {
-  /* Header 1 */
   color: var(--white-background);
   text-align: center;
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.07; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 1.12px;
   max-width: 496px;
   margin-left: auto;
@@ -99,11 +97,11 @@ img {
 }
 .button {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 48px;
   width: 169px;
   height: 56px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-service {
   font-family: "Roboto", sans-serif;
@@ -119,6 +117,9 @@ img {
   border-radius: 4px;
   border: none;
   box-shadow: 0px 4px 4px 0px #00000026;
+  display: block;
+  min-width: 169px;
+  height: 56px;
 }
 .button-service:hover,
 .button-service:focus {
@@ -157,6 +158,9 @@ img {
   background-color: var(--cloud);
   height: 732px;
   padding: 120px 0;
+}
+.our-team .container {
+  flex-direction: column;
 }
 .button-item {
   color: var(--primary-brand);
@@ -252,28 +256,19 @@ img {
   max-width: 1440px;
 }
 .header-container {
-  display: flex;
-  margin: 0;
-  height: 72px;
   border-bottom: 1px solid var(--acent);
 }
 ul {
   margin: 0;
   padding: 0;
 }
-nav {
-  display: flex;
-  margin-top: 24px;
-  margin-left: 156px;
-  width: 115px;
-}
+
 address {
   margin-top: 24px;
   margin-left: 669px;
 }
 .nav-ul-container {
   display: flex;
-  margin-left: 76px;
   width: 261px;
   gap: 40px;
 }
@@ -281,14 +276,14 @@ address {
   display: flex;
   gap: 40px;
 }
-.section2 {
+.ul-section-strategy {
   display: flex;
   width: 1128px;
   margin-left: auto;
   margin-right: auto;
   gap: 24px;
 }
-.section2li {
+.li-section-strategy {
   width: calc((100%-72px) / 4);
 }
 .title2 {
@@ -296,7 +291,7 @@ address {
 }
 .teamli {
   display: flex;
-  padding-top: 72px;
+
   width: 1128px;
   gap: 24px;
   margin-left: auto;
@@ -310,24 +305,25 @@ address {
 }
 .container {
   display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.section2strategy {
+.sectionstrategy {
   padding: 120px 0;
 }
-.container-section2 {
-}
+
 .our-portfolio {
   padding: 120px 0;
 }
-.container-section3 {
-}
-.ul-section3 {
+
+.ul-section-portfolio {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-.li-section3 {
+.li-section-portfolio {
   width: calc((100%-48px) / 3);
 }
 .li-section3-text {
@@ -337,4 +333,16 @@ address {
   margin-bottom: 8px;
 }
 .container-footer {
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+  width: 115px;
+}
+.visually-hidden {
+  display: none;
+}
+.our-portfolio .container {
+  flex-direction: column;
 }
