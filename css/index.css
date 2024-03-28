@@ -346,3 +346,6 @@ address {
 .our-portfolio .container {
   flex-direction: column;
 }
+.footer .container {
+  flex-direction: column;
+}
